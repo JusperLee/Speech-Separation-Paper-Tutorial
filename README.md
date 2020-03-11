@@ -26,6 +26,8 @@ This repository contains papers for pure speech separation and multimodal speech
 
 :heavy_check_mark: [Tasnet: time-domain audio separation network for real-time, single-channel speech separation, Luo Yi, ICASSP 2018] [[Paper]](https://arxiv.org/pdf/1711.00541) [[Code (Kai Li)]](https://github.com/JusperLee/Conv-TasNet)
 
+:heavy_check_mark: [Supervised Speech Separation Based on Deep Learning An Overview,DeLiang Wang, Arxiv 2018] [[Paper]](https://arxiv.org/ftp/arxiv/papers/1708/1708.07524.pdf) 
+
 :heavy_check_mark: [Conv-TasNet: Surpassing Ideal Time-Frequency Magnitude Masking for Speech Separation, Luo Yi, TASLP 2019] [[Paper]](https://ieeexplore.ieee.org/iel7/6570655/6633080/08707065.pdf) [[Code (Kai Li)]](https://github.com/JusperLee/Conv-TasNet)
 
 :heavy_check_mark: [Divide and Conquer: A Deep CASA Approach to Talker-independent Monaural Speaker Separation, Yuzhou Liu, TASLP 2019] [[Paper]](https://arxiv.org/pdf/1904.11148) [[Code]](https://github.com/yuzhou-git/deep-casa)
@@ -40,7 +42,11 @@ This repository contains papers for pure speech separation and multimodal speech
 
 :heavy_check_mark: [AN EMPIRICAL STUDY OF CONV-TASNET, Berkan Kadıoglu , Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2002.08688.pdf) 
 
-:heavy_check_mark: [Supervised Speech Separation Based on Deep Learning An Overview,DeLiang Wang, Arxiv 2018] [[Paper]](https://arxiv.org/ftp/arxiv/papers/1708/1708.07524.pdf) 
+:heavy_check_mark: [Wavesplit: End-to-End Speech Separation by Speaker Clustering, Neil Zeghidour, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2002.08933.pdf) 
+
+:heavy_check_mark: [Enhancing End-to-End Multi-channel Speech Separation via Spatial Feature Learning, Rongzhi Gu, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2003.03927.pdf)
+
+:heavy_check_mark: [An empirical study of Conv-TasNet, Berkan Kadioglu, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2002.08688.pdf)
 
 --------------
 
