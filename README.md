@@ -48,6 +48,10 @@ This repository contains papers for pure speech separation and multimodal speech
 
 :heavy_check_mark: [An empirical study of Conv-TasNet, Berkan Kadioglu, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2002.08688.pdf)
 
+:heavy_check_mark: [Voice Separation with an Unknown Number of Multiple Speakers, Eliya Nachmani, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2003.01531.pdf)
+
+:heavy_check_mark: [La Furca: Iterative Context-Aware End-to-End Monaural Speech Separation Based on Dual-Path Deep Parallel Inter-Intra Bi-LSTM with Attention] [[Paper]](https://arxiv.org/pdf/2001.08998.pdf)
+
 --------------
 
 # Multi-Model Speech Separation
