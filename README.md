@@ -1,4 +1,4 @@
-# A must-read paper for speech separation based on neural networks
+# A must-read paper list for speech separation based on neural networks
 
 This repository contains papers for pure speech separation and multimodal speech separation.
 
@@ -22,6 +22,8 @@ This repository contains papers for pure speech separation and multimodal speech
 
 :heavy_check_mark: [Alternative Objective Functions for Deep Clustering, Zhong-Qiu Wang, ICASSP 2018] [[Paper]](http://www.merl.com/publications/docs/TR2018-005.pdf)
 
+:heavy_check_mark: [End-to-End Speech Separation with Unfolded Iterative Phase Reconstruction Zhong-Qiu Wang et al. 2018] [[Paper]](https://arxiv.org/pdf/1804.10204.pdf)
+
 :heavy_check_mark: [Speaker-independent Speech Separation with Deep Attractor Network, Luo Yi, TASLP 2018] [[Paper]](https://arxiv.org/pdf/1707.03634) [[Code (Kai Li)]](https://github.com/JusperLee/DANet-For-Speech-Separation)
 
 :heavy_check_mark: [Tasnet: time-domain audio separation network for real-time, single-channel speech separation, Luo Yi, ICASSP 2018] [[Paper]](https://arxiv.org/pdf/1711.00541) [[Code (Kai Li)]](https://github.com/JusperLee/Conv-TasNet)
@@ -40,11 +42,15 @@ This repository contains papers for pure speech separation and multimodal speech
 
 :heavy_check_mark: [FurcaNeXt: End-to-end monaural speech separation with dynamic gated dilated temporal convolutional networks, Liwen Zhang, MMM 2020] [[Paper]](https://arxiv.org/pdf/1902.04891)
 
+:heavy_check_mark: [Filterbank design for end-to-end speech separation, Manuel Pariente et al., ICASSP 2020] [[Paper]](https://128.84.21.199/abs/1910.10400)
+
 :heavy_check_mark: [Voice Separation with an Unknown Number of Multiple Speakers, Eliya Nachmani, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2003.01531.pdf) [[Demo]](https://enk100.github.io/speaker_separation/)
 
 :heavy_check_mark: [AN EMPIRICAL STUDY OF CONV-TASNET, Berkan Kadıoglu , Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2002.08688.pdf) 
 
 :heavy_check_mark: [Voice Separation with an Unknown Number of Multiple Speakers, Eliya Nachmani, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2003.01531.pdf)
+
+:heavy_check_mark: [Wavesplit: End-to-End Speech Separation by Speaker Clustering, Neil Zeghidour et al. Arxiv 2020 ] [[Paper]](https://arxiv.org/abs/2002.08933)
 
 :heavy_check_mark: [La Furca: Iterative Context-Aware End-to-End Monaural Speech Separation Based on Dual-Path Deep Parallel Inter-Intra Bi-LSTM with Attention, Ziqiang Shi, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2001.08998.pdf)
 
@@ -73,6 +79,8 @@ This repository contains papers for pure speech separation and multimodal speech
 --------------
 
 # Evaluation index
+
+:heavy_check_mark: [Performance measurement in blind audio sourceseparation, Emmanuel Vincent et al., TASLP 2004] [[Paper]](https://hal.inria.fr/inria-00544230/document)
 
 :heavy_check_mark: [SDR – Half-baked or Well Done?, Jonathan Le Roux, ICASSP 2019] [[Paper]](https://arxiv.org/pdf/1811.02508)
 > I may not be able to get all the articles completely. So if you have an excellent essay or tutorial, you can update it in my format. At the same time, if you think the repository meets your needs, please give a star or fork, thank you.
