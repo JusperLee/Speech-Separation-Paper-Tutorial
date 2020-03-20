@@ -92,7 +92,7 @@ If you have found the code for some of the articles below, welcome to add links.
 
 # Dataset
 
-:heavy_check_mark: [WSJ0-2mix] [[Dataset Link]](https://catalog.ldc.upenn.edu/LDC93S6A)
+:heavy_check_mark: [WSJ0] [[Dataset Link]](https://catalog.ldc.upenn.edu/LDC93S6A)
 
 :heavy_check_mark: [WHAM & WHAMR] [[Dataset Link]](http://wham.whisper.ai/)
 
