@@ -58,6 +58,8 @@ If you have found the code for some of the articles below, welcome to add links.
 
 :heavy_check_mark: [Enhancing End-to-End Multi-channel Speech Separation via Spatial Feature Learning, Rongzhi Gu, Arxiv 2020] [[Paper]](https://arxiv.org/abs/2003.03927)
 
+:heavy_check_mark: [Deep Attention Fusion Feature for Speech Separation with End-to-End Post-ﬁlter Method, Cunhang Fan, Arxiv 2020] [[Paper]](https://arxiv.org/abs/2003.07544)
+
 --------------
 
 # Multi-Model Speech Separation
