@@ -2,6 +2,10 @@
 
 This repository contains papers for pure speech separation and multimodal speech separation.
 
+By Kai Li (if you have any suggestions, please contact me! Email: tsinghua.kaili@gmail.com).
+
+Tip: For speech separation beginners, I recommend you to read "deep clustering" & "PIT&uPIT" works which will help understand the problem.
+
 If you have found the code for some of the articles below, welcome to add links.
 
 # Pure Speech Separation
