@@ -1,4 +1,4 @@
-# A must-read paper list for speech separation based on neural networks
+# A must-read paper and tutorial list for speech separation based on neural networks
 
 This repository contains papers for pure speech separation and multimodal speech separation.
 
@@ -123,6 +123,12 @@ If you have found the code for some of the articles below, welcome to add links.
 :heavy_check_mark: [LRS3] [[Dataset Link]](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html)
 
 :heavy_check_mark: [VoxCeleb] [[Dataset Link]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
+
+--------------
+
+# Video
+
+:heavy_check_mark: [Speech Separation, Hung-yi Lee, 2020] [[Video]](https://www.youtube.com/watch?v=tovg5ZxNgIo&t=8s) [[Slide]](http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/SP%20(v3).pdf)
 
 
 > I may not be able to get all the articles completely. So if you have an excellent essay or tutorial, you can update it in my format. At the same time, if you think the repository meets your needs, please give a star or fork, thank you.
