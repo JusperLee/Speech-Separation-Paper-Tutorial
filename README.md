@@ -126,7 +126,7 @@ If you have found the code for some of the articles below, welcome to add links.
 
 --------------
 
-# Video
+# Video Tutorial
 
 :heavy_check_mark: [Speech Separation, Hung-yi Lee, 2020] [[Video]](https://www.youtube.com/watch?v=tovg5ZxNgIo&t=8s) [[Slide]](http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/SP%20(v3).pdf)
 
