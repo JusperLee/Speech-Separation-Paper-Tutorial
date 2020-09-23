@@ -76,6 +76,16 @@ If you have found the code for some of the articles below, welcome to add links.
 
 :heavy_check_mark: [Enhancing End-to-End Multi-channel Speech Separation via Spatial Feature Learning, Rongzhi Guo, ICASSP 2020] [[Paper]](https://arxiv.org/pdf/2003.03927.pdf)
 
+:heavy_check_mark: [A Multi-Phase Gammatone Filterbank for Speech Separation Via Tasnet, David Ditter, ICASSP 2020] [[Paper]](https://ieeexplore.ieee.org/abstract/document/9053602) [[Code]](https://github.com/sp-uhh/mp-gtf)
+
+:heavy_check_mark: [Lightweight U-Net Based Monaural Speech Source Separation for Edge Computing Device, Kwang Myung Jeon, ICCE 2020] [[Paper]](https://ieeexplore.ieee.org/abstract/document/9043051)
+
+:heavy_check_mark: [LibriMix: An Open-Source Dataset for Generalizable Speech Separation, Joris Cosentino, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2005.11262) [[Code]](https://github.com/JorisCos/LibriMix)
+
+:heavy_check_mark: [An End-to-end Architecture of Online Multi-channel Speech Separation, Jian Wu, Interspeech 2020] [[Paper]](https://arxiv.org/pdf/2009.03141.pdf)
+
+:heavy_check_mark: [SAGRNN: Self-Attentive Gated RNN for Binaural Speaker Separation with Interaural Cue Preservation, Ke Tan, IEEE Signal Processing Letters] [[Paper]](https://arxiv.org/pdf/2009.01381.pdf)
+
 --------------
 
 # Multi-Model Speech Separation
