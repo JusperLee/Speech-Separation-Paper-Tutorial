@@ -138,6 +138,12 @@ If you have found the code for some of the articles below, welcome to add links.
 
 :heavy_check_mark: [VoxCeleb] [[Dataset Link]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
 
+:heavy_check_mark: [LibriMix] [[Dataset Link]](https://github.com/JorisCos/LibriMix)
+
+:heavy_check_mark: [LibriSS] [[Dataset Link]](https://github.com/yluo42/TAC/blob/master/data/create_dataset.py)
+
+
+
 --------------
 
 # Video Tutorial
