@@ -86,6 +86,8 @@ If you have found the code for some of the articles below, welcome to add links.
 
 :heavy_check_mark: [SAGRNN: Self-Attentive Gated RNN for Binaural Speaker Separation with Interaural Cue Preservation, Ke Tan, IEEE Signal Processing Letters] [[Paper]](https://arxiv.org/pdf/2009.01381.pdf)
 
+:heavy_check_mark: [A convolutional recurrent neural network with attention framework for speech separation in monaural recordings, Chao Sun, Scientific Reports] [[Paper]](https://www.nature.com/articles/s41598-020-80713-3)
+
 --------------
 
 # Multi-Model Speech Separation
@@ -109,6 +111,8 @@ If you have found the code for some of the articles below, welcome to add links.
 :heavy_check_mark: [Co-Separating Sounds of Visual Objects, Ruohan Gao, ICCV 2019] [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gao_Co-Separating_Sounds_of_Visual_Objects_ICCV_2019_paper.pdf) [[Code]](https://github.com/rhgao/co-separation)
 
 :heavy_check_mark: [Multi-modal Multi-channel Target Speech Separation, Rongzhi Guo, J-STSP 2020] [[Paper]](https://arxiv.org/pdf/2003.07032.pdf)
+
+:heavy_check_mark: [VisualVoice: Audio-Visual Speech Separation with Cross-Modal Consistency, Rongzhi Guo, Arxiv 2021] [[Paper]](https://arxiv.org/pdf/2101.03149.pdf)
 
 --------------
 
