@@ -54,6 +54,8 @@ If you have found the code for some of the articles below, welcome to add links.
 
 :heavy_check_mark: [Discriminative Learning for Monaural Speech Separation Using Deep Embedding Features, Cunhang Fan, Interspeech 2019] [[Paper]](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1940.pdf)
 
+:heavy_check_mark: [FaSNet: Low-latency Adaptive Beamforming for Multi-microphone Audio Processing, Yi Luo, Arxiv 2019] [[Paper]](https://arxiv.org/abs/1909.13387)
+
 :heavy_check_mark: [Interrupted and cascaded permutation invariant training for speech separation, Gene-Ping Yang, ICASSP, 2020][[Paper]](https://arxiv.org/abs/1910.12706)
 
 :heavy_check_mark: [FurcaNeXt: End-to-end monaural speech separation with dynamic gated dilated temporal convolutional networks, Liwen Zhang, MMM 2020] [[Paper]](https://arxiv.org/pdf/1902.04891)
@@ -88,6 +90,14 @@ If you have found the code for some of the articles below, welcome to add links.
 
 :heavy_check_mark: [A convolutional recurrent neural network with attention framework for speech separation in monaural recordings, Chao Sun, Scientific Reports] [[Paper]](https://www.nature.com/articles/s41598-020-80713-3)
 
+:heavy_check_mark: [Unsupervised Sound Separation Using Mixture Invariant Training, Scott Wisdom, NeurIPS 2020] [[Paper]](https://arxiv.org/pdf/2006.12701)
+
+:heavy_check_mark: [Causal Deep CASA for Monaural Talker-Independent Speaker Separation, Yuzhou Liu, TASLP 2019] [[Paper]](https://ieeexplore.ieee.org/abstract/document/9136887/)
+
+:heavy_check_mark: [Sparse, Efficient, and Semantic Mixture Invariant Training: Taming In-the-Wild Unsupervised Sound Separation, Scott Wisdom, Arxiv 2021] [[Paper]](https://arxiv.org/abs/2106.00847)
+
+:heavy_check_mark: [Tune-In: Training Under Negative Environments with Interference for Attention Networks Simulating Cocktail Party Effect, Jun Wang, Arxiv 2021] [[Paper]](https://arxiv.org/abs/2103.01461)
+
 --------------
 
 # Multi-Model Speech Separation
@@ -110,9 +120,21 @@ If you have found the code for some of the articles below, welcome to add links.
 
 :heavy_check_mark: [Co-Separating Sounds of Visual Objects, Ruohan Gao, ICCV 2019] [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gao_Co-Separating_Sounds_of_Visual_Objects_ICCV_2019_paper.pdf) [[Code]](https://github.com/rhgao/co-separation)
 
+:heavy_check_mark: [AudioVisual Deep Clustering for Speech Separation, Rui Lu, TASLP 2019] [[Paper]](https://ieeexplore.ieee.org/document/8762221)
+
 :heavy_check_mark: [Multi-modal Multi-channel Target Speech Separation, Rongzhi Guo, J-STSP 2020] [[Paper]](https://arxiv.org/pdf/2003.07032.pdf)
 
-:heavy_check_mark: [VisualVoice: Audio-Visual Speech Separation with Cross-Modal Consistency, Rongzhi Guo, Arxiv 2021] [[Paper]](https://arxiv.org/pdf/2101.03149.pdf)
+:heavy_check_mark: [An Overview of Deep-Learning-Based Audio-Visual Speech Enhancement and Separation, Daniel Michelsanti, Arxiv 2020] [[Paper]](https://arxiv.org/abs/2008.09586)
+
+:heavy_check_mark: [Deep Audio-Visual Speech Separation with Attention Mechanism, Chenda Li, ICASSP 2020] [[Paper]](https://ieeexplore.ieee.org/document/9054180)
+
+:heavy_check_mark: [Looking into Your Speech: Learning Cross-modal Affinity for Audio-visual Speech Separation, Jiyoung Lee, CVPR 2021] [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Looking_Into_Your_Speech_Learning_Cross-Modal_Affinity_for_Audio-Visual_Speech_CVPR_2021_paper.pdf) [[Demo Page]](https://caffnet.github.io/)
+
+:heavy_check_mark: [Audio-Visual Speech Separation Using Cross-Modal Correspondence Loss, Naoki Makishima, ICASSP 2021] [[Paper]](https://arxiv.org/abs/2103.01463)
+
+:heavy_check_mark: [VisualVoice: Audio-Visual Speech Separation with Cross-Modal Consistency, Ruohan Gao, CVPR 2021] [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_VisualVoice_Audio-Visual_Speech_Separation_With_Cross-Modal_Consistency_CVPR_2021_paper.pdf) [[Demo Page]](http://vision.cs.utexas.edu/projects/VisualVoice/) [[Code]](https://github.com/facebookresearch/VisualVoice)
+
+
 
 --------------
 
@@ -145,8 +167,6 @@ If you have found the code for some of the articles below, welcome to add links.
 :heavy_check_mark: [LibriMix] [[Dataset Link]](https://github.com/JorisCos/LibriMix)
 
 :heavy_check_mark: [LibriSS] [[Dataset Link]](https://github.com/yluo42/TAC/blob/master/data/create_dataset.py)
-
-
 
 --------------
 
