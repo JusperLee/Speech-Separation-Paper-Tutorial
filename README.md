@@ -98,6 +98,8 @@ If you have found the code for some of the articles below, welcome to add links.
 
 :heavy_check_mark: [Tune-In: Training Under Negative Environments with Interference for Attention Networks Simulating Cocktail Party Effect, Jun Wang, Arxiv 2021] [[Paper]](https://arxiv.org/abs/2103.01461)
 
+:heavy_check_mark: [Speech Separation Using an Asynchronous Fully Recurrent Convolutional Neural Network, Kai Li, NeuralPS 2021] [[Paper]](https://openreview.net/pdf?id=SlxH2AbBBC2) [[Code]](https://github.com/JusperLee/AFRCNN-For-Speech-Separation)
+
 --------------
 
 # Multi-Model Speech Separation
