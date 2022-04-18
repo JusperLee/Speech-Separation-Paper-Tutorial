@@ -8,6 +8,8 @@ Tip: For speech separation beginners, I recommend you to read "deep clustering" 
 
 If you have found the code for some of the articles below, welcome to add links.
 
+:bangbang: New board: New papers are introduced every week ! [Weekly_Report.md](https://github.com/JusperLee/Speech-Separation-Paper-Tutorial/blob/add_week_reading/Weekly_Report.md)
+
 # Pure Speech Separation
 
 :heavy_check_mark: [Joint Optimization of Masks and Deep Recurrent Neural Networks for Monaural Source Separation, Po-Sen Huang, TASLP 2015] [[Paper]](https://arxiv.org/pdf/1502.04149) [[Code (posenhuang)]](https://github.com/posenhuang/deeplearningsourceseparation)
@@ -175,6 +177,5 @@ If you have found the code for some of the articles below, welcome to add links.
 # Video Tutorial
 
 :heavy_check_mark: [Speech Separation, Hung-yi Lee, 2020] [[Video]](https://www.youtube.com/watch?v=tovg5ZxNgIo&t=8s) [[Slide]](http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/SP%20(v3).pdf)
-
 
 > I may not be able to get all the articles completely. So if you have an excellent essay or tutorial, you can update it in my format. At the same time, if you think the repository meets your needs, please give a star or fork, thank you.
