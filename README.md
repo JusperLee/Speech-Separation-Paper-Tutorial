@@ -12,6 +12,7 @@ A curated list of research papers, implementations, and resources for speech sep
   - [🌀 By Learning & Generation Strategy](#-by-learning--generation-strategy)
   - [🗣️ By Speaker Handling](#️-by-speaker-handling)
 - [🌟 Highlights](#-highlights)
+- [🤝 How to Contribute](#-how-to-contribute)
 - [📝 Citation](#-citation)
 - [📄 License](#-license)
 
@@ -324,7 +325,52 @@ This survey includes a diverse range of speech separation techniques. Some notab
 
 ## 🤝 How to Contribute
 
-xxx
+
+We welcome contributions from the community to help make this repository more comprehensive and up-to-date! Whether you are a researcher, practitioner, or enthusiast, you can contribute in the following ways:
+
+### 📥 Add New Papers
+
+If you come across a relevant paper that is missing from this list:
+
+* Ensure it is **related to speech separation**, especially recent work or impactful methods.
+* Make sure to include: title, authors, year, paper link (preferably arXiv/IEEE/ACL/AAAI/etc.), and code link (if available).
+* Add it to the appropriate category in the markdown file and submit a pull request (PR).
+
+### 🛠 Improve Categorization
+
+Some methods may span multiple categories (e.g., architecture + model type). You can:
+
+* Suggest reclassification.
+* Help clarify descriptions.
+* Point out missing tags or incorrect placements.
+
+### 📊 Enhance Metadata
+
+We aim to make the list more useful by adding metadata such as:
+
+* Dataset used.
+* Evaluation metrics reported (e.g., SI-SNR, SDR, PESQ).
+* Training settings or challenges addressed (e.g., reverberation, low-latency).
+  If you want to enrich any entry, feel free to send a PR or open an issue.
+
+### 🧪 Add Demos or Benchmarks
+
+If you have interactive demos, benchmark results, or reproducible notebooks for any of the listed papers, let us know or contribute them to a separate section.
+
+### ✨ Suggest Improvements
+
+General suggestions on formatting, structure, or other speech-related resources (e.g., tutorials, toolkits, blog posts) are welcome via:
+
+* [GitHub Issues](https://github.com/[YourGitHubUsername]/[YourRepoName]/issues)
+* Pull Requests with improvements
+
+### 📜 Contributor Guidelines
+
+Before submitting a PR:
+
+1. Make sure your changes follow the current markdown style and indentation.
+2. Verify all links (paper/code) are active and correct.
+3. Add your name to the contributors section (if available).
 
 ## 📝 Citation
 
