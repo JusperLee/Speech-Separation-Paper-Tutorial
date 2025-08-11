@@ -123,6 +123,14 @@ function App() {
       {/* 页脚 */}
       <footer className="bg-white border-t border-gray-200 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          {/* ClustrMaps 访问统计 */}
+          <div className="text-center mb-4">
+            <script 
+              type='text/javascript' 
+              id='clustrmaps' 
+              src='//cdn.clustrmaps.com/map_v2.js?cl=000000&w=a&t=tt&d=XrGLcv3dx-vTA_1nWV2qZJw-syw255czmTrtl-IW5pw&co=ffffff&ct=000000'
+            ></script>
+          </div>
           <div className="text-center text-gray-600 text-sm">
             © Kai Li | Last updated: January. 4th, 2025
           </div>
