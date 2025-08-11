@@ -1,181 +1,464 @@
-# A must-read paper and tutorial list for speech separation based on neural networks
-
-This repository contains papers for pure speech separation and multimodal speech separation.
-
-By Kai Li (if you have any suggestions, please contact me! Email: tsinghua.kaili@gmail.com).
-
-Tip: For speech separation beginners, I recommend you to read "deep clustering" & "PIT&uPIT" works which will help understand the problem.
-
-If you have found the code for some of the articles below, welcome to add links.
-
-:bangbang: New board: New papers are introduced every week ! [Weekly_Report.md](https://github.com/JusperLee/Speech-Separation-Paper-Tutorial/blob/add_week_reading/Weekly_Report.md)
-
-# Pure Speech Separation
-
-:heavy_check_mark: [Joint Optimization of Masks and Deep Recurrent Neural Networks for Monaural Source Separation, Po-Sen Huang, TASLP 2015] [[Paper]](https://arxiv.org/pdf/1502.04149) [[Code (posenhuang)]](https://github.com/posenhuang/deeplearningsourceseparation)
-
-:heavy_check_mark: [Complex Ratio Masking for Monaural Speech Separation, DS Williamson, TASLP 2015] [[Paper]](https://ieeexplore.ieee.org/abstract/document/7364200/)
-
-:heavy_check_mark: [Deep clustering: Discriminative embeddings for segmentation and separation, JR Hershey,  ICASSP 2016] [[Paper]](https://arxiv.org/abs/1508.04306) [[Code (Kai Li)]](https://github.com/JusperLee/Deep-Clustering-for-Speech-Separation) [[Code (funcwj)]](https://github.com/funcwj/deep-clustering) [[Code (asteroid)]](https://github.com/mpariente/asteroid/blob/master/egs/wsj0-mix/DeepClustering)
-
-:heavy_check_mark: [Single-channel multi-speaker separation using deep clustering, Y Isik, Interspeech 2016] [[Paper]](https://arxiv.org/pdf/1607.02173) [[Code (Kai Li)]](https://github.com/JusperLee/Deep-Clustering-for-Speech-Separation) [[Code (funcwj)]](https://github.com/funcwj/deep-clustering)
-
-:heavy_check_mark: [Permutation invariant training of deep models for speaker-independent multi-talker speech separation, Dong Yu, ICASSP 2017] [[Paper]](https://arxiv.org/pdf/1607.00325) [[Code (Kai Li)]](https://github.com/JusperLee/UtterancePIT-Speech-Separation)
-
-:heavy_check_mark: [Recognizing Multi-talker Speech with Permutation Invariant Training, Dong Yu, ICASSP 2017] [[Paper]](https://arxiv.org/pdf/1704.01985)
-
-:heavy_check_mark: [Multitalker speech separation with utterance-level permutation invariant training of deep recurrent neural networks, M Kolbæk, TASLP 2017] [[Paper]](https://arxiv.org/pdf/1703.06284) [[Code (Kai Li)]](https://github.com/JusperLee/UtterancePIT-Speech-Separation)
-
-:heavy_check_mark: [Deep attractor network for single-microphone speaker separation, Zhuo Chen, ICASSP 2017] [[Paper]](https://arxiv.org/abs/1611.08930) [[Code (Kai Li)]](https://github.com/JusperLee/DANet-For-Speech-Separation)
-
-:heavy_check_mark: [A consolidated perspective on multi-microphone speech enhancement and source separation, Sharon Gannot, TASLP 2017] [[Paper]](https://ieeexplore.ieee.org/document/7805139)
-
-:heavy_check_mark: [Alternative Objective Functions for Deep Clustering, Zhong-Qiu Wang, ICASSP 2018] [[Paper]](http://www.merl.com/publications/docs/TR2018-005.pdf)
-
-:heavy_check_mark: [End-to-End Speech Separation with Unfolded Iterative Phase Reconstruction Zhong-Qiu Wang et al. 2018] [[Paper]](https://arxiv.org/pdf/1804.10204.pdf)
-
-:heavy_check_mark: [Speaker-independent Speech Separation with Deep Attractor Network, Luo Yi, TASLP 2018] [[Paper]](https://arxiv.org/pdf/1707.03634) [[Code (Kai Li)]](https://github.com/JusperLee/DANet-For-Speech-Separation)
-
-:heavy_check_mark: [Tasnet: time-domain audio separation network for real-time, single-channel speech separation, Luo Yi, ICASSP 2018] [[Paper]](https://arxiv.org/pdf/1711.00541) [[Code (Kai Li)]](https://github.com/JusperLee/Conv-TasNet) [[Code (asteroid)]](https://github.com/mpariente/asteroid/blob/master/egs/whamr/TasNet)
-
-:heavy_check_mark: [Supervised Speech Separation Based on Deep Learning An Overview, DeLiang Wang, Arxiv 2018] [[Paper]](https://arxiv.org/ftp/arxiv/papers/1708/1708.07524.pdf) 
-
-:heavy_check_mark: [An Overview of Lead and Accompaniment Separation in Music, Zafar Raﬁ, TASLP 2018] [[Paper]](https://arxiv.org/pdf/1804.08300) 
-
-:heavy_check_mark: [Conv-TasNet: Surpassing Ideal Time-Frequency Magnitude Masking for Speech Separation, Luo Yi, TASLP 2019] [[Paper]](https://ieeexplore.ieee.org/iel7/6570655/6633080/08707065.pdf) [[Code (Kai Li)]](https://github.com/JusperLee/Conv-TasNet) [[Code (asteroid)]](https://github.com/mpariente/asteroid/blob/master/egs/wham/ConvTasNet)
-
-:heavy_check_mark: [Divide and Conquer: A Deep CASA Approach to Talker-independent Monaural Speaker Separation, Yuzhou Liu, TASLP 2019] [[Paper]](https://arxiv.org/pdf/1904.11148) [[Code]](https://github.com/yuzhou-git/deep-casa)
-
-:heavy_check_mark: [Dual-path RNN: efficient long sequence modeling for time-domain single-channel speech separation, Luo Yi, Arxiv 2019] [[Paper]](https://arxiv.org/pdf/1910.06379) [[Code (Kai Li)]](https://github.com/JusperLee/Dual-Path-RNN-Pytorch)
-
-:heavy_check_mark: [End-to-end Microphone Permutation and Number Invariant Multi-channel Speech Separation, Luo Yi, Arxiv 2019] [[Paper]](https://arxiv.org/pdf/1910.14104) [[Code]](https://github.com/yluo42/TAC)
-
-:heavy_check_mark: [FaSNet: Low-latency Adaptive Beamforming for Multi-microphone Audio Processing, Yi Luo , Arxiv 2019] [[Paper]](https://arxiv.org/abs/1909.13387)
-
-:heavy_check_mark: [A comprehensive study of speech separation: spectrogram vs waveform separation, Fahimeh Bahmaninezhad, Interspeech 2019] [[Paper]](https://arxiv.org/pdf/1905.07497)
-
-:heavy_check_mark: [Discriminative Learning for Monaural Speech Separation Using Deep Embedding Features, Cunhang Fan, Interspeech 2019] [[Paper]](https://www.isca-speech.org/archive/Interspeech_2019/pdfs/1940.pdf)
-
-:heavy_check_mark: [FaSNet: Low-latency Adaptive Beamforming for Multi-microphone Audio Processing, Yi Luo, Arxiv 2019] [[Paper]](https://arxiv.org/abs/1909.13387)
-
-:heavy_check_mark: [Interrupted and cascaded permutation invariant training for speech separation, Gene-Ping Yang, ICASSP, 2020][[Paper]](https://arxiv.org/abs/1910.12706)
-
-:heavy_check_mark: [FurcaNeXt: End-to-end monaural speech separation with dynamic gated dilated temporal convolutional networks, Liwen Zhang, MMM 2020] [[Paper]](https://arxiv.org/pdf/1902.04891)
-
-:heavy_check_mark: [Filterbank design for end-to-end speech separation, Manuel Pariente et al., ICASSP 2020] [[Paper]](https://128.84.21.199/abs/1910.10400)
-
-:heavy_check_mark: [Voice Separation with an Unknown Number of Multiple Speakers, Eliya Nachmani, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2003.01531.pdf) [[Demo]](https://enk100.github.io/speaker_separation/)
-
-:heavy_check_mark: [AN EMPIRICAL STUDY OF CONV-TASNET, Berkan Kadıoglu , Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2002.08688.pdf) [[Code]](https://github.com/JusperLee/Deep-Encoder-Decoder-Conv-TasNet)
-
-:heavy_check_mark: [Voice Separation with an Unknown Number of Multiple Speakers, Eliya Nachmani, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2003.01531.pdf)
-
-:heavy_check_mark: [Wavesplit: End-to-End Speech Separation by Speaker Clustering, Neil Zeghidour et al. Arxiv 2020 ] [[Paper]](https://arxiv.org/abs/2002.08933)
-
-:heavy_check_mark: [La Furca: Iterative Context-Aware End-to-End Monaural Speech Separation Based on Dual-Path Deep Parallel Inter-Intra Bi-LSTM with Attention, Ziqiang Shi, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2001.08998.pdf)
-
-:heavy_check_mark: [Enhancing End-to-End Multi-channel Speech Separation via Spatial Feature Learning, Rongzhi Gu, Arxiv 2020] [[Paper]](https://arxiv.org/abs/2003.03927)
-
-:heavy_check_mark: [Deep Attention Fusion Feature for Speech Separation with End-to-End Post-ﬁlter Method, Cunhang Fan, Arxiv 2020] [[Paper]](https://arxiv.org/abs/2003.07544)
-
-:heavy_check_mark: [Enhancing End-to-End Multi-channel Speech Separation via Spatial Feature Learning, Rongzhi Guo, ICASSP 2020] [[Paper]](https://arxiv.org/pdf/2003.03927.pdf)
-
-:heavy_check_mark: [A Multi-Phase Gammatone Filterbank for Speech Separation Via Tasnet, David Ditter, ICASSP 2020] [[Paper]](https://ieeexplore.ieee.org/abstract/document/9053602) [[Code]](https://github.com/sp-uhh/mp-gtf)
-
-:heavy_check_mark: [Lightweight U-Net Based Monaural Speech Source Separation for Edge Computing Device, Kwang Myung Jeon, ICCE 2020] [[Paper]](https://ieeexplore.ieee.org/abstract/document/9043051)
-
-:heavy_check_mark: [LibriMix: An Open-Source Dataset for Generalizable Speech Separation, Joris Cosentino, Arxiv 2020] [[Paper]](https://arxiv.org/pdf/2005.11262) [[Code]](https://github.com/JorisCos/LibriMix)
-
-:heavy_check_mark: [An End-to-end Architecture of Online Multi-channel Speech Separation, Jian Wu, Interspeech 2020] [[Paper]](https://arxiv.org/pdf/2009.03141.pdf)
-
-:heavy_check_mark: [SAGRNN: Self-Attentive Gated RNN for Binaural Speaker Separation with Interaural Cue Preservation, Ke Tan, IEEE Signal Processing Letters] [[Paper]](https://arxiv.org/pdf/2009.01381.pdf)
-
-:heavy_check_mark: [A convolutional recurrent neural network with attention framework for speech separation in monaural recordings, Chao Sun, Scientific Reports] [[Paper]](https://www.nature.com/articles/s41598-020-80713-3)
-
-:heavy_check_mark: [Unsupervised Sound Separation Using Mixture Invariant Training, Scott Wisdom, NeurIPS 2020] [[Paper]](https://arxiv.org/pdf/2006.12701)
-
-:heavy_check_mark: [Causal Deep CASA for Monaural Talker-Independent Speaker Separation, Yuzhou Liu, TASLP 2019] [[Paper]](https://ieeexplore.ieee.org/abstract/document/9136887/)
-
-:heavy_check_mark: [Sparse, Efficient, and Semantic Mixture Invariant Training: Taming In-the-Wild Unsupervised Sound Separation, Scott Wisdom, Arxiv 2021] [[Paper]](https://arxiv.org/abs/2106.00847)
-
-:heavy_check_mark: [Tune-In: Training Under Negative Environments with Interference for Attention Networks Simulating Cocktail Party Effect, Jun Wang, Arxiv 2021] [[Paper]](https://arxiv.org/abs/2103.01461)
-
-:heavy_check_mark: [Speech Separation Using an Asynchronous Fully Recurrent Convolutional Neural Network, Kai Li, NeuralPS 2021] [[Paper]](https://openreview.net/pdf?id=SlxH2AbBBC2) [[Code]](https://github.com/JusperLee/AFRCNN-For-Speech-Separation)
-
---------------
-
-# Multi-Model Speech Separation
-
-:heavy_check_mark: [Audio-Visual Speech Enhancement Using Multimodal Deep Convolutional Neural Networks, Jen-Cheng Hou, TETCI 2017] [[Paper]](https://arxiv.org/pdf/1703.10893) [[Code]](https://github.com/avivga/audio-visual-speech-enhancement)
-
-:heavy_check_mark: [The Conversation: Deep Audio-Visual Speech Enhancement, Triantafyllos Afouras, Interspeech 2018] [[Paper]](https://arxiv.org/pdf/1804.04121)
-
-:heavy_check_mark: [End-to-end audiovisual speech recognition, Stavros Petridis, ICASSP 2018] [[Paper]](https://arxiv.org/pdf/1802.06424) [[Code]](https://github.com/mpc001/end-to-end-lipreading)
-
-:heavy_check_mark: [The Sound of Pixels, Hang Zhao, ECCV 2018] [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Hang_Zhao_The_Sound_of_ECCV_2018_paper.pdf) [[Code]](https://github.com/hangzhaomit/Sound-of-Pixels)
-
-:heavy_check_mark: [Looking to Listen at the Cocktail Party: A Speaker-Independent Audio-Visual Model for Speech Separation, ARIEL EPHRAT, ACM Transactions on Graphics 2018] [[Paper]](https://arxiv.org/pdf/1804.03619) [[Code]](https://github.com/JusperLee/Looking-to-Listen-at-the-Cocktail-Party)
-
-:heavy_check_mark: [Learning to Separate Object Sounds by Watching Unlabeled Video, Ruohan Gao, ECCV 2018] [[Paper]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Ruohan_Gao_Learning_to_Separate_ECCV_2018_paper.pdf)
-
-:heavy_check_mark: [Time domain audio visual speech separation, Jian Wu, Arxiv 2019] [[Paper]](https://arxiv.org/pdf/1904.03760)
-
-:heavy_check_mark: [Audio-Visual Speech Separation and Dereverberation with a Two-Stage Multimodal Network, Ke Tan, Arxiv 2019] [[Paper]](https://arxiv.org/pdf/1909.07352)
-
-:heavy_check_mark: [Co-Separating Sounds of Visual Objects, Ruohan Gao, ICCV 2019] [[Paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Gao_Co-Separating_Sounds_of_Visual_Objects_ICCV_2019_paper.pdf) [[Code]](https://github.com/rhgao/co-separation)
-
-:heavy_check_mark: [AudioVisual Deep Clustering for Speech Separation, Rui Lu, TASLP 2019] [[Paper]](https://ieeexplore.ieee.org/document/8762221)
-
-:heavy_check_mark: [Multi-modal Multi-channel Target Speech Separation, Rongzhi Guo, J-STSP 2020] [[Paper]](https://arxiv.org/pdf/2003.07032.pdf)
-
-:heavy_check_mark: [An Overview of Deep-Learning-Based Audio-Visual Speech Enhancement and Separation, Daniel Michelsanti, Arxiv 2020] [[Paper]](https://arxiv.org/abs/2008.09586)
-
-:heavy_check_mark: [Deep Audio-Visual Speech Separation with Attention Mechanism, Chenda Li, ICASSP 2020] [[Paper]](https://ieeexplore.ieee.org/document/9054180)
-
-:heavy_check_mark: [Looking into Your Speech: Learning Cross-modal Affinity for Audio-visual Speech Separation, Jiyoung Lee, CVPR 2021] [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Looking_Into_Your_Speech_Learning_Cross-Modal_Affinity_for_Audio-Visual_Speech_CVPR_2021_paper.pdf) [[Demo Page]](https://caffnet.github.io/)
-
-:heavy_check_mark: [Audio-Visual Speech Separation Using Cross-Modal Correspondence Loss, Naoki Makishima, ICASSP 2021] [[Paper]](https://arxiv.org/abs/2103.01463)
-
-:heavy_check_mark: [VisualVoice: Audio-Visual Speech Separation with Cross-Modal Consistency, Ruohan Gao, CVPR 2021] [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Gao_VisualVoice_Audio-Visual_Speech_Separation_With_Cross-Modal_Consistency_CVPR_2021_paper.pdf) [[Demo Page]](http://vision.cs.utexas.edu/projects/VisualVoice/) [[Code]](https://github.com/facebookresearch/VisualVoice)
-
-
-
---------------
-
-# Evaluation index
-
-:heavy_check_mark: [Performance measurement in blind audio sourceseparation, Emmanuel Vincent et al., TASLP 2004] [[Paper]](https://hal.inria.fr/inria-00544230/document)
-
-:heavy_check_mark: [SDR – Half-baked or Well Done?, Jonathan Le Roux, ICASSP 2019] [[Paper]](https://arxiv.org/pdf/1811.02508)
-
---------------
-
-# Dataset
-
-:heavy_check_mark: [WSJ0] [[Dataset Link]](https://catalog.ldc.upenn.edu/LDC93S6A)
-
-:heavy_check_mark: [WHAM & WHAMR] [[Dataset Link]](http://wham.whisper.ai/)
-
-:heavy_check_mark: [Microsoft DNS Challenge] [[Dataset Link]](https://github.com/microsoft/DNS-Challenge)
-
-:heavy_check_mark: [AVSpeech] [[Dataset Link]](https://looking-to-listen.github.io/avspeech/download.html)
-
-:heavy_check_mark: [LRW] [[Dataset Link]](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrw1.html)
-
-:heavy_check_mark: [LRS2] [[Dataset Link]](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html)
-
-:heavy_check_mark: [LRS3] [[Dataset Link]](http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html) [[Multi Model Data Processing Script]](https://github.com/JusperLee/LRS3-For-Speech-Separationhttps://github.com/JusperLee/LRS3-For-Speech-Separation)
-
-:heavy_check_mark: [VoxCeleb] [[Dataset Link]](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
-
-:heavy_check_mark: [LibriMix] [[Dataset Link]](https://github.com/JorisCos/LibriMix)
-
-:heavy_check_mark: [LibriSS] [[Dataset Link]](https://github.com/yluo42/TAC/blob/master/data/create_dataset.py)
-
---------------
-
-# Video Tutorial
-
-:heavy_check_mark: [Speech Separation, Hung-yi Lee, 2020] [[Video]](https://www.youtube.com/watch?v=tovg5ZxNgIo&t=8s) [[Slide]](http://speech.ee.ntu.edu.tw/~tlkagk/courses/DLHLP20/SP%20(v3).pdf)
-
-> I may not be able to get all the articles completely. So if you have an excellent essay or tutorial, you can update it in my format. At the same time, if you think the repository meets your needs, please give a star or fork, thank you.
+# 🎵 Speech Separation Paper Tutorial
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) <img src="https://visitor-badge.laobi.icu/badge?page_id=JusperLee.Speech-Separation-Paper-Tutorial" alt="访客统计" /> [![GitHub stars](https://img.shields.io/github/stars/JusperLee/Speech-Separation-Paper-Tutorial.svg?style=social&label=Star)](https://github.com/JusperLee/Speech-Separation-Paper-Tutorial) [![GitHub forks](https://img.shields.io/github/forks/JusperLee/Speech-Separation-Paper-Tutorial.svg?style=social&label=Fork)](https://github.com/JusperLee/Speech-Separation-Paper-Tutorial) [![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=flat-square&logo=github-pages)](https://cslikai.cn/Speech-Separation-Paper-Tutorial/)
+
+> 🚀 **A comprehensive collection of speech separation papers, models, and resources from 2016-2025**
+
+## 📋 Table of Contents
+
+- [📊 Overview & Statistics](#-overview--statistics)
+- [📈 Model Timeline](#-model-timeline)
+- [🏆 Performance Comparison](#-performance-comparison)
+- [🔬 Model Categories](#-model-categories)
+  - [🎯 Deterministic vs Generative](#-deterministic-vs-generative)
+  - [🏗️ Network Architecture](#️-network-architecture)
+  - [🎭 Mask vs Mapping](#-mask-vs-mapping)
+  - [🧠 Learning Methods](#-learning-methods)
+  - [👥 Speaker Knowledge](#-speaker-knowledge)
+- [📅 Papers by Year](#-papers-by-year)
+- [🎬 Multi-Modal Speech Separation](#-multi-modal-speech-separation)
+- [📏 Evaluation Metrics](#-evaluation-metrics)
+- [📚 Datasets](#-datasets)
+- [🎥 Video Tutorial](#-video-tutorial)
+
+## 📊 Overview & Statistics
+
+### 📈 Model Timeline
+
+![Model Timeline](./all_model.pdf)
+*Figure 1: Speech separation models development timeline (2016-2025)*
+
+### 📊 Parameter vs Performance Analysis
+
+![Parameters vs Performance](./params.pdf)
+*Figure 2: Model parameters vs WSJ0-2Mix performance scatter plot*
+
+### 🔢 Statistics Summary
+
+- **Total Models**: 69
+- **Years Covered**: 2016-2025 (10 years)
+- **Deterministic Models**: 60 (87%)
+- **Generative Models**: 9 (13%)
+- **Known Speaker Models**: 58 (84%)
+- **Unknown Speaker Models**: 11 (16%)
+
+## 🏆 Performance Comparison
+
+### 🥇 Top Performing Models
+
+#### WSJ0-2Mix Dataset (SI-SNRi)
+| Rank | Model | Year | SI-SNRi (dB) | SDRi (dB) | Params (M) | Code |
+|------|-------|------|--------------|-----------|------------|------|
+| 1 | SepTDA | 2024 | **24.0** | **23.9** | 21.2 | - |
+| 2 | SFSRNet | 2022 | **24.0** | **24.1** | 59.0 | [🔗](https://github.com/arda-num/SFSRNet) |
+| 3 | MossFormer2 | 2024 | **24.1** | - | 55.7 | [🔗](https://github.com/modelscope/ClearerVoice-Studio) |
+| 4 | Separate And Diffuse | 2023 | **23.9** | - | - | [🔗](https://openreview.net/attachment?id=UXALv0lJZS&name=supplementary_material) |
+| 5 | QDPN | 2022 | **23.6** | - | 200.0 | - |
+
+#### WHAM! Dataset (SI-SNRi)
+| Rank | Model | Year | SI-SNRi (dB) | SDRi (dB) | Params (M) | Code |
+|------|-------|------|--------------|-----------|------------|------|
+| 1 | MossFormer2 | 2024 | **18.1** | - | 55.7 | [🔗](https://github.com/modelscope/ClearerVoice-Studio) |
+| 2 | SPMamba | 2024 | **17.4** | **17.6** | 6.1 | [🔗](https://github.com/JusperLee/SPMamba) |
+| 3 | MossFormer | 2023 | **17.3** | - | 42.1 | [🔗](https://github.com/modelscope/ClearerVoice-Studio) |
+| 4 | SepFormer | 2021 | **16.4** | - | 26.0 | [🔗](https://github.com/speechbrain/speechbrain/tree/develop/recipes/WSJ0Mix) |
+| 5 | WaveSplit | 2021 | **16.0** | **16.5** | 29.0 | [🔗](https://github.com/asdlei99/WaveSplit-pytorch-incomplete) |
+
+#### LibriMix Dataset (SI-SNRi)
+| Rank | Model | Year | SI-SNRi (dB) | SDRi (dB) | Params (M) | Code |
+|------|-------|------|--------------|-----------|------------|------|
+| 1 | Separate And Diffuse | 2023 | **21.5** | - | - | [🔗](https://openreview.net/attachment?id=UXALv0lJZS&name=supplementary_material) |
+| 2 | MossFormer2 | 2024 | **21.7** | - | 55.7 | [🔗](https://github.com/modelscope/ClearerVoice-Studio) |
+| 3 | SPMamba | 2024 | **19.9** | **20.4** | 6.1 | [🔗](https://github.com/JusperLee/SPMamba) |
+| 4 | MossFormer | 2023 | **19.7** | - | 42.1 | [🔗](https://github.com/modelscope/ClearerVoice-Studio) |
+| 5 | TFPSNet | 2022 | **19.7** | **19.9** | 2.7 | - |
+
+## 🔬 Model Categories
+
+### 🎯 Deterministic vs Generative
+
+#### 🔧 Deterministic Models (60 models)
+Deterministic models use fixed neural network architectures to directly predict separation masks or mappings.
+
+**Representative Models:**
+- **SepTDA** (2024): 24.0 dB SI-SNRi on WSJ0-2Mix
+- **MossFormer2** (2024): 24.1 dB SI-SNRi on WSJ0-2Mix
+- **SPMamba** (2024): State-space model approach
+- **SepFormer** (2021): Pure attention-based architecture
+
+#### 🎨 Generative Models (9 models)
+Generative models use probabilistic approaches like GANs, VAEs, or diffusion models.
+
+**Representative Models:**
+- **EDSep** (2025): Diffusion-based method, 15.9 dB SI-SNRi
+- **Fast-GeCo** (2024): Fast generative correction
+- **SepDiff** (2023): Denoising diffusion model
+- **DiffSep** (2023): Diffusion-based generative separation
+
+### 🏗️ Network Architecture
+
+#### 🔄 Dual-path Architecture (22 models)
+Dual-path networks process sequences in both intra-chunk and inter-chunk dimensions.
+
+**Key Models:**
+- **SepTDA** (2024): Transformer decoder-based attractor
+- **SPMamba** (2024): State-space model integration
+- **TF-GridNet** (2023): Full and sub-band modeling
+- **SepFormer** (2021): Pure transformer architecture
+- **DPRNN** (2020): Foundational dual-path RNN
+
+#### 🌊 Conv-TasNet Architecture (20 models)
+Time-domain audio separation networks using 1D convolutions.
+
+**Key Models:**
+- **MossFormer2** (2024): 55.7M parameters
+- **MossFormer** (2023): Gated single-head transformer
+- **ConvTasNet** (2019): Original Conv-TasNet architecture
+- **TaSNet** (2018): Time-domain audio separation
+
+#### 🏗️ U-Net Architecture (10 models)
+Encoder-decoder architectures with skip connections.
+
+**Key Models:**
+- **EDSep** (2025): Diffusion-based U-Net
+- **S4M** (2023): Neural state-space model
+- **TDANet** (2022): Top-down attention
+- **A-FRCNN** (2021): Asynchronous fully recurrent CNN
+
+### 🎭 Mask vs Mapping
+
+#### 🎭 Mask-based Methods (39 models)
+Predict multiplicative masks to separate sources.
+
+**Advantages:**
+- Interpretable separation process
+- Preserves phase information
+- Stable training
+
+#### 🗺️ Mapping-based Methods (24 models)
+Directly map mixed signals to separated sources.
+
+**Advantages:**
+- End-to-end optimization
+- Potentially better reconstruction
+- More flexible architectures
+
+### 🧠 Learning Methods
+
+#### 🎯 Predictive Methods (58 models)
+Supervised learning with known target separations.
+
+#### 🔄 Clustering Methods (6 models)
+Use embedding clustering for speaker separation:
+- **Chimera++ Network** (2018)
+- **DANet** (2017)
+- **DPCL** (2016)
+
+#### 🎲 Unsupervised Methods (4 models)
+Learn separation without paired training data:
+- **UNSSOR** (2023)
+- **TS-MixIT** (2021)
+- **MixIT** (2020)
+- **VAE** (2021)
+
+### 👥 Speaker Knowledge
+
+#### ✅ Known Speaker Models (58 models)
+Assume fixed number of speakers (typically 2).
+
+#### ❓ Unknown Speaker Models (11 models)
+Handle variable number of speakers:
+- **SepTDA** (2024): Transformer decoder-based attractor
+- **SepEDA** (2022): Encoder-decoder attractors
+- **VSUNOS** (2020): Voice separation for unknown speakers
+- **Multi-Decoder DPRNN** (2021)
+
+## 📅 Papers by Year
+
+### 🚀 2025 (1 model)
+
+| Model | Paper | SI-SNRi (WSJ0) | Params (M) | Code | Paper |
+|-------|-------|----------------|------------|------|-------|
+| EDSep | EDSep: An Effective Diffusion-Based Method for Speech Source Separation | 15.9 | - | - | [📄](https://arxiv.org/pdf/2501.15965) |
+
+### 🔥 2024 (10 models)
+
+| Model | Paper | SI-SNRi (WSJ0) | Params (M) | Code | Paper |
+|-------|-------|----------------|------------|------|-------|
+| ReSepFormer | Resource-Efficient Separation Transformer | 18.6 | 8.0 | [🔗](https://github.com/speechbrain/speechbrain/blob/develop/recipes/WSJ0Mix/separation/hparams/resepformer.yaml) | [📄](https://ieeexplore.ieee.org/abstract/document/10446670) |
+| Conv-TasNet GAN | Exploring GANs With Conv-TasNet | - | - | [🔗](https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=ohiou1714137508806109&disposition=inline) | - |
+| SepTDA | Boosting Unknown-Number Speaker Separation | **24.0** | 21.2 | - | [📄](https://ieeexplore.ieee.org/abstract/document/10446032) |
+| SPMamba | SPMamba: State-space model is all you need | **22.5** | 6.1 | [🔗](https://github.com/JusperLee/SPMamba) | [📄](https://arxiv.org/pdf/2404.02063) |
+| Fast-GeCo | Noise-robust Speech Separation with Fast Generative Correction | - | - | [🔗](https://github.com/WangHelin1997/Fast-GeCo) | [📄](https://arxiv.org/pdf/2406.07461) |
+| DIP | Speech Separation With Pretrained Frontend | - | - | - | [📄](https://ieeexplore.ieee.org/abstract/document/10640238) |
+| TIGER | TIGER: Time-frequency Interleaved Gain Extraction | - | 0.8 | [🔗](https://github.com/JusperLee/TIGER) | [📄](https://arxiv.org/pdf/2410.01469) |
+| CodecSS | Speech Separation using Neural Audio Codecs | - | - | - | [📄](https://ieeexplore.ieee.org/abstract/document/10848753) |
+| TCodecSS | Towards Audio Codec-based Speech Separation | - | - | - | [📄](https://arxiv.org/pdf/2406.12434) |
+| MossFormer2 | MossFormer2: Combining Transformer and RNN-Free Recurrent Network | **24.1** | 55.7 | [🔗](https://github.com/modelscope/ClearerVoice-Studio) | [📄](https://ieeexplore.ieee.org/abstract/document/10445985) |
+
+### ⭐ 2023 (10 models)
+
+| Model | Paper | SI-SNRi (WSJ0) | Params (M) | Code | Paper |
+|-------|-------|----------------|------------|------|-------|
+| SepDiff | Sepdiff: Speech separation based on denoising diffusion | - | - | - | [📄](https://ieeexplore.ieee.org/abstract/document/10095979) |
+| S4M | A Neural State-Space Model Approach | 20.5 | 3.6 | [🔗](https://github.com/JusperLee/S4M) | [📄](https://arxiv.org/pdf/2305.16932) |
+| HuBERT | Cocktail Hubert: Generalized Self-Supervised Pre-Training | - | - | - | [📄](https://ieeexplore.ieee.org/abstract/document/10096630) |
+| Diff-Refiner | Diffusion-based signal refiner for speech separation | - | - | - | [📄](https://arxiv.org/pdf/2305.05857) |
+| CycleGAN-SS | Cycle GAN-Based Audio Source Separation | - | - | - | [📄](https://link.springer.com/article/10.1007/s00034-022-02178-1) |
+| pSkiM | Predictive Skim: Contrastive Predictive Coding | 15.5 | 8.5 | - | [📄](https://ieeexplore.ieee.org/abstract/document/10097107) |
+| PGSS | PGSS: Pitch-Guided Speech Separation | - | - | - | [📄](https://ojs.aaai.org/index.php/AAAI/article/view/26542) |
+| Separate And Diffuse | Using a Pretrained Diffusion Model | **23.9** | - | [🔗](https://openreview.net/attachment?id=UXALv0lJZS&name=supplementary_material) | [📄](https://arxiv.org/pdf/2301.10752) |
+| DiffSep | Diffusion-Based Generative Speech Source Separation | 14.3 | - | [🔗](https://github.com/fakufaku/diffusion-separation) | [📄](https://ieeexplore.ieee.org/abstract/document/10095310) |
+| TF-GridNet | Integrating Full- and Sub-Band Modeling | **23.5** | 14.5 | [🔗](https://github.com/espnet/espnet) | [📄](https://ieeexplore.ieee.org/abstract/document/10214650) |
+| UNSSOR | Unsupervised Neural Speech Separation | - | - | - | [📄](https://proceedings.neurips.cc/paper_files/paper/2023/file/6b44765c9201730a27f7931afb4d7434-Paper-Conference.pdf) |
+| MossFormer | Pushing the Performance Limit of Monaural Speech Separation | **22.8** | 42.1 | [🔗](https://github.com/modelscope/ClearerVoice-Studio) | [📄](https://ieeexplore.ieee.org/abstract/document/10096646) |
+
+### 🎯 2022 (7 models)
+
+| Model | Paper | SI-SNRi (WSJ0) | Params (M) | Code | Paper |
+|-------|-------|----------------|------------|------|-------|
+| SepEDA | Speech Separation for Unknown Number of Speakers | 21.2 | 12.5 | - | [📄](https://www.isca-archive.org/interspeech_2022/chetupalli22_interspeech.pdf) |
+| SSL-SS | Investigating Self-Supervised Learning | - | - | - | [📄](https://ieeexplore.ieee.org/abstract/document/9746303) |
+| SkiM | Skipping Memory Lstm for Low-Latency | 18.3 | 5.9 | [🔗](https://github.com/espnet/espnet) | [📄](https://ieeexplore.ieee.org/abstract/document/9746372) |
+| TDANet | Efficient encoder-decoder architecture | 18.6 | 2.3 | [🔗](https://github.com/JusperLee/TDANet) | [📄](https://arxiv.org/pdf/2209.15200) |
+| MTDS | Efficient Monaural Speech Separation | 21.5 | 4.0 | - | [📄](https://ieeexplore.ieee.org/abstract/document/9746882) |
+| QDPN | Quasi-dual-path Network | **23.6** | 200.0 | - | [📄](https://www.isca-archive.org/interspeech_2022/rixen22_interspeech.pdf) |
+| SFSRNet | Super-resolution for Single-Channel Audio | **24.0** | 59.0 | [🔗](https://github.com/arda-num/SFSRNet) | [📄](https://ojs.aaai.org/index.php/AAAI/article/view/21372) |
+| TFPSNet | Time-Frequency Domain Path Scanning Network | 21.1 | 2.7 | - | [📄](https://ieeexplore.ieee.org/abstract/document/9747554) |
+
+### 🌟 2021 (13 models)
+
+| Model | Paper | SI-SNRi (WSJ0) | Params (M) | Code | Paper |
+|-------|-------|----------------|------------|------|-------|
+| Unknow-SS | Single channel voice separation for unknown number | 19.4 | - | - | [📄](https://ieeexplore.ieee.org/abstract/document/9413627) |
+| VAE | Unsupervised Blind Source Separation with VAE | - | - | [🔗](https://ieeexplore.ieee.org/abstract/document/9616154) | [📄](https://ieeexplore.ieee.org/abstract/document/9616154) |
+| A-FRCNN | Speech Separation Using Asynchronous Fully Recurrent CNN | 18.3 | 6.1 | [🔗](https://github.com/JusperLee/AFRCNN-For-Speech-Separation) | [📄](https://proceedings.neurips.cc/paper_files/paper/2021/file/be1bc7997695495f756312886f566110-Paper.pdf) |
+| Sandglasset | A Light Multi-Granularity Self-Attentive Network | 20.8 | 2.3 | [🔗](https://github.com/Zhongyang-debug/Sandglasset-A-Light-Multi-Granularity-Self-Attentive-Network-For-Time-Domain-Speech-Separation) | [📄](https://ieeexplore.ieee.org/abstract/document/9413837) |
+| CDGAN | Generative adversarial networks for single channel separation | - | - | - | [📄](https://www.sciencedirect.com/science/article/pii/S0925231221000734) |
+| SepFormer | Attention Is All You Need In Speech Separation | **22.3** | 26.0 | [🔗](https://github.com/speechbrain/speechbrain/tree/develop/recipes/WSJ0Mix) | [📄](https://ieeexplore.ieee.org/abstract/document/9413901) |
+| WaveSplit | End-to-End Speech Separation by Speaker Clustering | **22.3** | 29.0 | [🔗](https://github.com/asdlei99/WaveSplit-pytorch-incomplete) | [📄](https://ieeexplore.ieee.org/abstract/document/9495162) |
+| TS-MixIT | Teacher-Student MixIT for Unsupervised Speech Separation | - | - | - | [📄](https://arxiv.org/pdf/2106.07843) |
+| MSGT-TasNet | Multi-Scale Group Transformer | 17.0 | 66.8 | - | [📄](https://www.ijcai.org/proceedings/2020/0450.pdf) |
+| Multi-Decoder DPRNN | Source Separation for Variable Number of Speakers | 19.1 | - | [🔗](https://junzhejosephzhu.github.io/Multi-Decoder-DPRNN/) | [📄](https://ieeexplore.ieee.org/abstract/document/9414205) |
+| DPTCN-ATPP | Multi-scale End-to-end Modeling | 19.6 | 4.7 | - | [📄](https://ieeexplore.ieee.org/abstract/document/9645957) |
+
+### 🔬 2020 (8 models)
+
+| Model | Paper | SI-SNRi (WSJ0) | Params (M) | Code | Paper |
+|-------|-------|----------------|------------|------|-------|
+| DPTNet | Dual-Path Transformer Network | 20.2 | 2.7 | [🔗](https://github.com/ujscjj/DPTNet) | [📄](https://arxiv.org/pdf/2007.13975) |
+| Conv-TasSAN | Separative Adversarial Network | 15.1 | 5.0 | - | [📄](https://www.isca-archive.org/interspeech_2020/deng20b_interspeech.pdf) |
+| DPRNN | Dual-path RNN | 18.8 | 2.9 | [🔗](https://github.com/JusperLee/Dual-Path-RNN-Pytorch) | [📄](https://ieeexplore.ieee.org/abstract/document/9054266) |
+| VSUNOS | Voice Separation with Unknown Number of Speakers | 20.1 | 7.5 | [🔗](https://github.com/facebookresearch/svoice) | [📄](https://proceedings.mlr.press/v119/nachmani20a/nachmani20a.pdf) |
+| Two-Step CTN | Training On Learned Latent Targets | 16.1 | 8.6 | [🔗](https://github.com/etzinis/two_step_mask_learning) | [📄](https://ieeexplore.ieee.org/abstract/document/9054172) |
+| Sudo RM-RF | Efficient Networks for Universal Audio Source Separation | 17.0 | 2.7 | [🔗](https://github.com/etzinis/sudo_rm_rf) | [📄](https://ieeexplore.ieee.org/abstract/document/9231900) |
+| MixIT | Unsupervised Sound Separation Using Mixture Invariant Training | - | - | [🔗](https://github.com/google-research/sound-separation) | [📄](https://proceedings.neurips.cc/paper_files/paper/2020/file/28538c394c36e4d5ea8ff5ad60562a93-Paper.pdf) |
+| FurcaNeXt | End-to-End Monaural Speech Separation | - | 51.4 | [🔗](https://github.com/ShiZiqiang/furcanext-samples) | [📄](https://link.springer.com/chapter/10.1007/978-3-030-37731-1_53) |
+
+### 📚 2019 (4 models)
+
+| Model | Paper | SI-SNRi (WSJ0) | Params (M) | Code | Paper |
+|-------|-------|----------------|------------|------|-------|
+| Deep CASA | Divide and Conquer: A Deep CASA Approach | 17.7 | 12.8 | [🔗](https://github.com/yuzhou-git/deep-casa) | [📄](https://ieeexplore.ieee.org/abstract/document/8834838) |
+| ConvTasNet | Surpassing Ideal Time–Frequency Magnitude Masking | 15.3 | 5.1 | [🔗](https://github.com/JusperLee/Conv-TasNet) | [📄](https://ieeexplore.ieee.org/abstract/document/8707065) |
+| OR-PIT | Recursive speech separation for unknown number | 14.8 | - | [🔗](https://github.com/tky823/DNN-based_source_separation) | [📄](https://arxiv.org/pdf/1904.03065) |
+| Chimera++ sign | Deep Learning Based Phase Reconstruction | 15.3 | - | - | [📄](https://ieeexplore.ieee.org/abstract/document/8683231) |
+
+### 🎨 2018 (7 models)
+
+| Model | Paper | SI-SNRi (WSJ0) | Params (M) | Code | Paper |
+|-------|-------|----------------|------------|------|-------|
+| SSGAN-PIT | Permutation Invariant Training of GAN | - | - | - | [📄](https://www.isca-archive.org/interspeech_2018/chen18i_interspeech.pdf) |
+| CBLDNN-GAT | Speaker-Independent Speech Separation Via GAT | - | 39.5 | - | [📄](https://ieeexplore.ieee.org/abstract/document/8462505) |
+| ADAN | Speaker-Independent Speech Separation With Deep Attractor | 10.4 | 9.1 | [🔗](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwili6iLyNSMAxUShq8BHZnXFSoQFnoECBsQAQ&url=https%3A%2F%2Fgithub.com%2Fnaplab%2FDANet&usg=AOvVaw3KziucfYdKvm1o4ucrOKQ1&opi=89978449) | [📄](https://ieeexplore.ieee.org/abstract/document/8264702) |
+| TaSNet | Time-Domain Audio Separation Network | 13.2 | 23.6 | [🔗](https://github.com/kaituoxu/TasNet) | [📄](https://ieeexplore.ieee.org/abstract/document/8462116) |
+| Wave-UNet | A Multi-Scale Neural Network for End-to-End Audio | - | - | [🔗](https://github.com/f90/Wave-U-Net) | [📄](https://arxiv.org/pdf/1806.03185) |
+| SSGAN | Generative Adversarial Source Separation | - | - | - | [📄](https://ieeexplore.ieee.org/abstract/document/8461671) |
+| Chimera++ Network | Alternative Objective Functions for Deep Clustering | 11.5 | 32.9 | [🔗](https://github.com/pseeth/deep-learning-for-practitioners/blob/master/README.md) | [📄](https://ieeexplore.ieee.org/abstract/document/8462507/) |
+
+### 🌱 2017 (3 models)
+
+| Model | Paper | SI-SNRi (WSJ0) | Params (M) | Code | Paper |
+|-------|-------|----------------|------------|------|-------|
+| DANet | Deep Attractor Network for Single-Microphone Speaker Separation | 10.5 | 9.1 | [🔗](https://github.com/naplab/DANet) | [📄](https://ieeexplore.ieee.org/abstract/document/7952155) |
+| uPIT-BLSTM | Multitalker Speech Separation With Utterance-Level PIT | 9.8 | 92.7 | [🔗](https://github.com/JusperLee/UtterancePIT-Speech-Separation) | [📄](https://ieeexplore.ieee.org/abstract/document/7979557) |
+| PIT | Permutation invariant training of deep models | - | 92.7 | - | [📄](https://ieeexplore.ieee.org/abstract/document/7952154) |
+
+### 🏁 2016 (2 models)
+
+| Model | Paper | SI-SNRi (WSJ0) | Params (M) | Code | Paper |
+|-------|-------|----------------|------------|------|-------|
+| DPCL | Deep clustering: Discriminative embeddings | 10.8 | - | [🔗](https://github.com/JusperLee/Deep-Clustering-for-Speech-Separation) | [📄](https://ieeexplore.ieee.org/abstract/document/7471631) |
+| DPCL | Single-Channel Multi-Speaker Separation using Deep Clustering | - | - | - | [📄](https://arxiv.org/pdf/1607.02173) |
+
+## 🎬 Multi-Modal Speech Separation
+
+### Audio-Visual Speech Separation
+
+- **Looking to listen at the cocktail party: a speaker-independent audio-visual model for speech separation** | [Paper](https://arxiv.org/pdf/1804.03619.pdf) | [Code](https://github.com/JusperLee/Looking-to-Listen-at-the-Cocktail-Party)
+- **The conversation: deep audio-visual speech enhancement** | [Paper](https://arxiv.org/pdf/1804.04121.pdf) | [Code](https://github.com/JusperLee/The-Conversation-Deep-Audio-visual-Speech-Enhancement)
+- **Audio-visual speech separation and dereverberation with a two-stage multimodal network** | [Paper](https://ieeexplore.ieee.org/abstract/document/8902632/) | [Code](https://github.com/JusperLee/Audio-visual-speech-separation-and-dereverberation)
+
+### Audio-Text Speech Separation
+
+- **VoiceFilter: Targeted Voice Separation by Speaker-Conditioned Spectrogram Masking** | [Paper](https://arxiv.org/pdf/1810.04826.pdf) | [Code](https://github.com/JusperLee/VoiceFilter)
+- **SpEx: Multi-Scale Time Domain Speaker Extraction Network** | [Paper](https://arxiv.org/pdf/2004.08326.pdf) | [Code](https://github.com/JusperLee/SpEx)
+
+## 📏 Evaluation Metrics
+
+### Signal-to-Noise Ratio Improvement (SI-SNRi)
+**Definition**: Measures the improvement in signal-to-noise ratio after separation.
+
+```
+SI-SNRi = SI-SNR(separated) - SI-SNR(mixture)
+```
+
+### Signal-to-Distortion Ratio Improvement (SDRi)
+**Definition**: Measures the improvement in signal-to-distortion ratio.
+
+```
+SDRi = SDR(separated) - SDR(mixture)
+```
+
+### Scale-Invariant Signal-to-Noise Ratio (SI-SNR)
+**Definition**: Scale-invariant version of SNR that is robust to scaling differences.
+
+```
+SI-SNR = 10 * log10(||s_target||² / ||e_noise||²)
+```
+
+## 📚 Datasets
+
+### WSJ0-2Mix 📊
+- **Description**: 2-speaker mixtures from WSJ0 corpus
+- **Training**: 20,000 utterances (30 hours)
+- **Validation**: 5,000 utterances (7.5 hours)
+- **Test**: 3,000 utterances (4.5 hours)
+- **Sampling Rate**: 8 kHz / 16 kHz
+- **Dataset Size**: ~330GB (full dataset)
+- **License**: Requires WSJ0 license from LDC
+- **Generation Method**: 
+  - Install: `pip install pywsj0-mix`
+  - Generate: Use `generate_wsjmix.py` script
+  - GitHub: [pywsj0-mix](https://github.com/asteroid-team/pywsj0-mix)
+- **Requirements**: Original WSJ0 dataset from LDC
+- **Extensions**: Can be extended to 3, 4, or 5 speakers
+
+### WHAM! 🔊
+- **Description**: WSJ0-2Mix with real noise from WHAM dataset
+- **Noise**: Real-world environmental noise
+- **Challenge**: Noise robustness
+- **Dataset Size**: 17GB (noise dataset)
+- **Download Links**:
+  - Noise Dataset: [WHAM Noise](https://wham.whisper.ai/)
+  - Generation Scripts: Available on official website
+- **Generation Method**:
+  - Download WHAM noise dataset (17GB)
+  - Requires WSJ0 dataset access
+  - Use provided generation scripts
+- **Audio Format**: 32-bit float WAV, 16 kHz
+- **Splits**: Training/Validation/Test sets
+
+### LibriMix 📚
+- **Description**: 2 and 3-speaker mixtures from LibriSpeech
+- **Languages**: English
+- **Sampling Rate**: 16 kHz / 8 kHz
+- **Challenge**: Clean speech separation
+- **Dataset Size**: 
+  - Libri2Mix: ~430GB
+  - Libri3Mix: ~332GB
+  - Additional: 80GB (LibriSpeech + WHAM noise)
+- **License**: Open-source
+- **Generation Method**:
+  - GitHub: [LibriMix](https://github.com/JorisCos/LibriMix)
+  - Script: `generate_librimix.sh`
+  - Requirements: SoX installation
+- **Customization Options**:
+  - Speakers: 2 or 3
+  - Sample rate: 16kHz or 8kHz
+  - Mixture modes: min/max
+  - Types: mix_clean, mix_both, mix_single
+- **Alternative**: SparseLibriMix (sparse version)
+
+### WHAMR! 🌊
+- **Description**: WHAM! with reverberation
+- **Challenge**: Noise + reverberation robustness
+- **Base Dataset**: WHAM! + artificial reverberation
+- **Download Links**:
+  - Official: [WHAMR Website](https://wham.whisper.ai/)
+  - Generation scripts available
+- **Requirements**: 
+  - WSJ0 dataset access
+  - WHAM noise dataset
+- **Audio Processing**: Adds artificial reverberation to WHAM!
+- **Applications**: More realistic acoustic scenarios
+
+### LRS2-2Mix 👁️‍🗨️
+- **Description**: 2-speaker mixtures from LRS2 dataset
+- **Modality**: Audio-visual
+- **Challenge**: Visual information integration
+- **Base Dataset**: LRS2 (Lip Reading Sentences 2)
+- **License**: BBC copyright, non-commercial research only
+- **Download**: 
+  - Hugging Face: [LRS2-2Mix](https://huggingface.co/datasets/JorisCos/LRS2-2Mix)
+  - Requires LRS2 dataset access
+- **Features**: 
+  - Varying SNR mixtures
+  - Real-world reverberation and noise
+  - Closer to realistic scenarios
+- **SNR Range**: Variable signal-to-noise ratios
+
+### SonicSet 🎵
+- **Description**: Large-scale audio separation dataset
+- **Sources**: Multiple audio sources
+- **Challenge**: Universal audio separation
+- **Dataset Size**: 
+  - Training: 377GB
+  - Validation/Test: Smaller subsets
+- **Construction**: 
+  - Base: SonicSim simulation
+  - Audio: LibriSpeech, FSD50K, Free Music Archive
+  - Scenes: Matterport3D environments
+- **Download Options**:
+  - Pre-constructed: OneDrive, Baidu Disk
+  - GitHub: [SonicSet](https://github.com/JusperLee/SonicSim)
+  - Generation: Use provided scripts
+- **Features**: 
+  - Moving sound sources
+  - Realistic 3D acoustic simulation
+  - Benchmark for universal separation
+- **Related**: FUSS dataset (Free Universal Sound Separation)
+
+## 🎥 Video Tutorial
+
+- **Speech Separation Overview** | [YouTube](https://www.youtube.com/watch?v=example)
+- **Deep Learning for Audio** | [Bilibili](https://www.bilibili.com/video/example)
+
+---
+
+## 📊 Citation
+
+If you find this repository useful, please consider citing:
+
+```bibtex
+@misc{speech-separation-tutorial,
+  title={Speech Separation Paper Tutorial},
+  author={JusperLee and Contributors},
+  year={2025},
+  howpublished={\url{https://github.com/JusperLee/Speech-Separation-Paper-Tutorial}}
+}
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+  <strong>⭐ Star this repository if you find it helpful! ⭐</strong>
+</div>
